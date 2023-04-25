@@ -77,7 +77,7 @@ https://user-images.githubusercontent.com/107775566/234366767-0c10fd07-92fd-4fc1
         SceneManager.LoadScene("SampleScene");
      }
  SceneManager.LoadScene لانتقال لمشهد جديد
- عشان نستخدم SceneManager لازم نستدعي فوق using UnityEngine.SceneManagement;
+ <br>عشان نستخدم SceneManager لازم نستدعي فوق using UnityEngine.SceneManagement;
  
  #### ج_ لانهاء اللعبة اذا خسر
     public void gameOver(){
