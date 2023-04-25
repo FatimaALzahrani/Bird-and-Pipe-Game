@@ -35,10 +35,10 @@ https://user-images.githubusercontent.com/107775566/234366767-0c10fd07-92fd-4fc1
             myRigidbody.velocity = Vector2.up * flapStrength;
         }
  flapStrength المسافة اللي بينقزها العصفور 
- Vector2 عشان على محور الواي نبغا
- .up عشان يطلع فوق
- myRigidbody اوبجكت بيمثل العصفور
- if (Input.GetKeyDown(KeyCode.Space) && birdIsAlive) اذا ضغط المستخدن مسافة وكان العصفور داخل الشاشه 
+ <br>Vector2 عشان على محور الواي نبغا
+ <br>.up عشان يطلع فوق
+ <br>myRigidbody اوبجكت بيمثل العصفور
+ <br>if (Input.GetKeyDown(KeyCode.Space) && birdIsAlive) اذا ضغط المستخدن مسافة وكان العصفور داخل الشاشه 
  
  #### ب_ اذا طلع العصفور برا الشاشه خل اللعبة تنتهي 
  
@@ -47,9 +47,9 @@ https://user-images.githubusercontent.com/107775566/234366767-0c10fd07-92fd-4fc1
         birdIsAlive = false;
         }
  16, -16 خارج حدود الشاشه 
- transform.position.y موقع العصفور على محور واي
- logic.gameOver() بيستدعي داله game over الموجودة في LogicScript
- logic اوبجكت من كلاس LogicScript
+ <br>transform.position.y موقع العصفور على محور واي
+ <br>logic.gameOver() بيستدعي داله game over الموجودة في LogicScript
+ <br>logic اوبجكت من كلاس LogicScript
  
  #### ج_ عشان ااشر على العصفور اللي بالواجهه الرسويمة واقدر اعرف خصائصه واعدل
  
