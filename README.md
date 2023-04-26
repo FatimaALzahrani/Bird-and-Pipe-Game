@@ -134,11 +134,12 @@ https://user-images.githubusercontent.com/107775566/234366767-0c10fd07-92fd-4fc1
  ### PipeSpawnScript  
  انشاء انابيب باشكال مختلفه 
   أ_ داله تنشء انابيب نختلفة من الانبوب الاساسي pip بشكل عشوائي داخل نطاق محدد للطول
-    void spawnPipe(){
+  
+      void spawnPipe(){
         float lowestPoint = transform.position.y - heightOffset;
         float highestPoint = transform.position.y + heightOffset;
         Instantiate(pipe, new Vector3(transform.position.x, Random.Range(lowestPoint, highestPoint), 0), transform.rotation);
-     }
+       }
 ### PipeMiddleScript 
  فائدته زيادة الدرجة عند تخطي الانبوب
  أ_ عند تصادم الطائر والمشار اليه بالطبقة الثالثه سابقا بالمسافة بين الانبوبين يزيد درجة 
