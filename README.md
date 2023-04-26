@@ -14,12 +14,12 @@
   * [شرح بعض الكلاسات/السكربتات الموجودة باللعبة](#شرح_بعض_الكلاسات)
     * [1. كلاس BridScript](#BridScript)       
     * [2. كلاس LogicScript](#LogicScript)
-    * [3. كلاس PipMoveScript](#4.2.3)
-    * [4. كلاس PipeSpawnScript](#4.2.4)
-    * [5. كلاس PipeMiddleScript](#4.2.5)
-    * [6. كلاس CloudScript](#4.2.6)
-    * [7. كلاس MoveCloud](#4.2.7)
- 
+    * [3. كلاس PipMoveScript](#PipMoveScript)
+    * [4. كلاس PipeSpawnScript](#PipeSpawnScript)
+    * [5. كلاس PipeMiddleScript](#PipeMiddleScript)
+    * [6. كلاس CloudScript](#CloudScript)
+    * [7. كلاس MoveCloud](#MoveCloud)
+  
 ## ماهيunity؟
 
 Unity هي منصة تطوير الألعاب الحاسوبية والتطبيقات التفاعلية ثلاثية الأبعاد والثنائية الأبعاد
@@ -128,7 +128,7 @@ https://user-images.githubusercontent.com/107775566/234366767-0c10fd07-92fd-4fc1
             Destroy(gameObject);
         }
  فايدة هذي الخطوه ان اللعبة بتجلس تنشئ انابيب الين يخسر اللاعب فلو ما حذفت الانبوب اللي خلاص طلع ومعد نحتاجه بيصير عندي كثير انابيب وبتعلق
- ### 4.2.4. شرح بعض الاكود في PipeSpawnScript  
+ ### PipeSpawnScript  
  انشاء انابيب باشكال مختلفه 
   أ_ داله تنشء انابيب نختلفة من الانبوب الاساسي pip بشكل عشوائي داخل نطاق محدد للطول
     void spawnPipe(){
@@ -136,7 +136,7 @@ https://user-images.githubusercontent.com/107775566/234366767-0c10fd07-92fd-4fc1
         float highestPoint = transform.position.y + heightOffset;
         Instantiate(pipe, new Vector3(transform.position.x, Random.Range(lowestPoint, highestPoint), 0), transform.rotation);
      }
- ### 4.2.5. شرح بعض الاكود في PipeMiddleScript 
+### PipeMiddleScript 
  فائدته زيادة الدرجة عند تخطي الانبوب
  أ_ عند تصادم الطائر والمشار اليه بالطبقة الثالثه سابقا بالمسافة بين الانبوبين يزيد درجة 
  
@@ -145,9 +145,9 @@ https://user-images.githubusercontent.com/107775566/234366767-0c10fd07-92fd-4fc1
             logic.addScore(1);
           }
         }
- ### 4.2.6. شرح بعض الاكود في CloudScript 
+ ### CloudScript 
   PipeSpawnScript انشاء السحب باشكل مختلفة ودوالها مشابهه ل 
   
- ### 4.2.7. شرح بعض الاكود في MoveCloud 
+ ### MoveCloud 
  PipMoveScript تحريك السحب طوال اللعبة ودوالها مشابهه ل
 
