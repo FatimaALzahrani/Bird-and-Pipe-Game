@@ -1,5 +1,5 @@
 # Bird-and-Pipe-Game
-<p align="right">
+<html dir="rtl" lang="ar">
 ## المحتويات
 * [ ماهي unity?](#1.)
 * [شكل اللعبة النهائي](#2.)
@@ -18,7 +18,7 @@
     * [5. PipeMiddleScript](#4.2.5)
     * [6. CloudScript](#4.2.6)
     * [7. MoveCloud](#4.2.7)
-  </p>
+  </html>
 ## 1. ماهي unity؟
 
 Unity هي منصة تطوير الألعاب الحاسوبية والتطبيقات التفاعلية ثلاثية الأبعاد والثنائية الأبعاد
